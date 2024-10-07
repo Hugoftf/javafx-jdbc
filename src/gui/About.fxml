@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="415.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label prefHeight="60.0" prefWidth="95.0" text="About">
+         <VBox.margin>
+            <Insets left="40.0" top="24.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label prefHeight="43.0" prefWidth="216.0" text="By Hugo de França Torres Ferreira">
+         <VBox.margin>
+            <Insets left="40.0" />
+         </VBox.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="226.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ImagemView/handyman-bonito-traga-escada-e-caixa-de-ferramentas-icone-de-ilustracao-vetorial-dos-desenhos-animados-icone-de-construcao-de-pessoas_138676-8389.png" />
+         </image>
+         <VBox.margin>
+            <Insets left="283.0" />
+         </VBox.margin>
+      </ImageView>
+   </children>
+</VBox>
